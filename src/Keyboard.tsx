@@ -1,3 +1,5 @@
+import styles from './Keyboard.module.css'
+
 const letterList: string[] = [
   'a',
   'b',
@@ -36,7 +38,11 @@ export function Keyboard() {
       }}
     >
       {letterList.map((letter) => {
-        return <button key={letter}>{letter}</button>
+        return (
+          <button key={letter} className={styles.btn}>
+            {letter}
+          </button>
+        )
       })}
     </div>
   )
