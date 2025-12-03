@@ -1,6 +1,6 @@
-\*_currently building_
+![Language](https://badgen.net/badge/Language/TypeScript/blue)
 
-# Classic Hangman Quiz Game!
+# _(WIP)_ Classic Hangman Quiz Game!
 
 Guess the secret word by selecting the remaining letters! Too many wrong guesses and you lose! (and so does the stick-man...)
 
